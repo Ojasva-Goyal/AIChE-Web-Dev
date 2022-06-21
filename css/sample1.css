@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fascinate+Inline&family=Gentium+Plus&display=swap");
+body {
+  background-color: #161927;
+}
+
+.navbar {
+  background: black;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.navbar .container {
+  display: flex;
+}
+
+a {
+  color: white;
+  text-shadow: 1em;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+ul li {
+  display: grid;
+  text-indent: 4em;
+}
+
+section {
+  padding: 2em 3em;
+}
+
+.event-section {
+  text-align: center;
+}
+
+.head-events {
+  font-family: "Abril Fatface";
+  font-size: 2em;
+  color: #15f4ee;
+}
+
+.accept-email {
+  text-align: center;
+}
+.accept-email .send-email {
+  color: #15f4ee;
+  background: #161927;
+  border-radius: 2em;
+  border-color: #15f4ee;
+  height: 2em;
+  width: 6em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-family: "Gentium Plus";
+  color: #15f4ee;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-family: "Gentium Plus";
+  color: #15f4ee;
+}
+
+h3 {
+  font-size: 2.2em;
+  font-family: "Abril Fatface";
+  color: #15f4ee;
+}
+
+.event-section {
+  background: black;
+  z-index: -2;
+  width: 88%;
+  padding: 0.7em 1em;
+  margin: 0 auto 5em auto;
+  text-align: center;
+  border-radius: 2em;
+  border-bottom-style: groove;
+  border-top-style: groove;
+  border-color: #15f4ee;
+}
+.event-section .event-content {
+  color: #15f4ee;
+}
+.event-section img {
+  border-radius: 1em;
+  border: 5px solid black;
+  width: 35em;
+  height: 25em;
+  display: flex;
+}
+
+.container:hover {
+  box-shadow: 0 1.5px 1.5px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 1.5px 1.5px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+
+.event-section .container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.event-section .container .img-soon {
+  height: 10em;
+  width: 20em;
+  margin-right: 5%;
+}
+.event-section .container .coming-soon {
+  text-align: justify;
+  margin-left: 20%;
+  font-size: 2em;
+}/*# sourceMappingURL=sample1.css.map */
