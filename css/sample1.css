@@ -13,9 +13,15 @@ body {
 }
 
 .navbar {
-  background: black;
-  padding-top: 1em;
+  /*background: black;*/
+  padding-top: 0%;
+  padding-bottom: 0%;
   padding-left: 1em;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  align-content: center;
+  justify-content: center;
 }
 .navbar .container {
   display: flex;
@@ -37,6 +43,7 @@ ul {
 ul li {
   display: grid;
   text-indent: 4em;
+  text-align: center;
   
 }
 a:hover{
@@ -144,9 +151,9 @@ h3 {
 
 .event-section .each-container {
   position: relative;
-  margin: 50px 7%;
-  width: 35%;
-  height: 430px;
+  margin: 50px 2%;
+  width: 20%;
+  height: 330px;
   overflow: hidden;
   background:#0a0d19;
   

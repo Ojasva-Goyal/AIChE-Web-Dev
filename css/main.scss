@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fascinate+Inline&family=Gentium+Plus&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     //background-image: url(../images/bg.png);
 }
 .navbar {
@@ -17,6 +17,7 @@ body {
             
     .container{
         display: flex;
+        
     }
     
 }
@@ -45,31 +46,42 @@ section{
 .head-events{
     font-family:'Abril Fatface';
     font-size: 2em;
+    color: black;
 }
 .accept-email{
     text-align: center;
     .send-email{
+        color: #15f4ee;
+        background: #161927;
         border-radius: 2em;
+        border-color: #15f4ee;
         height: 2em;
         width: 6em;
         font-size: 1.5em;
         cursor: pointer;
     }
+    
 }
 h4{
     font-size: 1.5em;
     font-family:'Gentium Plus' ;
+    color: #15f4ee;
+    text-align: center;
+
 }
 h5{
     font-size: 1.5em;
     font-family:'Gentium Plus' ;
+    color: black;
 }
 h3{
     font-size: 2.2em;
     font-family:'Abril Fatface' ;
+    color: black;
 }
 .event-section{
-    background: whitesmoke;
+    background:whitesmoke;
+    z-index: -2;
     width: 88%;
     padding: 0.7em 1em;
     margin: 0 auto 5em auto;
@@ -77,10 +89,14 @@ h3{
     border-radius: 2em;
     border-bottom-style:groove ;
     border-top-style:groove ;
-    border-bottom-width: 0.35em;
-    border-top-width: 0.35em;
-    //.event-content{
-        //margin-right: 10%;}
+    //border-width: 235deg;
+    //border-bottom-width: 0.35em;
+    //border-top-width: 0.35em;
+    border-color: #15f4ee;
+    .event-content{
+        color: #15f4ee;
+    }
+    
     img{
         border-radius: 1em;
         //margin-left: 1em;
@@ -95,6 +111,12 @@ h3{
         
     }
 }
+.container:hover{
+    box-shadow: 0 1.5px 1.5px 0 black inset, 0 5px 50px 0 black,
+    0 1.5px 1.5px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+
+}
+
 .event-section .container{
     display: flex;
     justify-content: space-between;
@@ -111,3 +133,4 @@ h3{
     }
 
 }
+
