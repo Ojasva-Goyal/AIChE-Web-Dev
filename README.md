@@ -1,5 +1,5 @@
 # American Institute of Chemical Engineers BITS Pilani Student Chapter (AIChE) 
-Events Page of official website
+**Events Page** of official website
 
 ## Installation
 To run this project locally, follow these steps:
@@ -8,12 +8,16 @@ To run this project locally, follow these steps:
    ```bash
    https://github.com/Ojasva-Goyal/AIChE-Web-Dev.git
    ```
-  Navigate to the project directory:
-  ```bash
-    cd AIChE-Web-Dev
-  ```
-Open `index.html` in your preferred web browser.
+2. Navigate to the project directory:
+   ```bash
+   cd AIChE-Web-Dev
+   ```
+3. Open `index.html` in your preferred web browser.
 
+## Complete Website Source Code
+Follow this link to the repository:- [AIChE BITS Pilani Student Chapter Website Source Code](https://github.com/Ojasva-Goyal/AIChE-BP)
+
+## License
 This project is licensed under the MIT License. 
 
 ## Contact
